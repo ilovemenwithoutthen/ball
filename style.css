@@ -1,0 +1,61 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    z-index: 1;
+    color: white;
+    font-family: 'Bungee', cursive;
+}
+
+body {
+    height: 50vh;
+    overflow: hidden;
+    background: #545454;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.ball{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}      
+
+h1 {
+    text-align: center;
+
+}
+
+.whitesurface{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ball-text{
+    width: 70px;
+    color: black;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.game-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
